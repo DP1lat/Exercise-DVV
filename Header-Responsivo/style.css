@@ -14,7 +14,11 @@
     display: block;
 }
 
-#mobile-container {
+#desk-container{
+    display: none;
+}
+
+#main-container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -85,4 +89,64 @@ header {
     font-family: Kirang Haerang;
     font-size: 12px;
     cursor: pointer;
+}
+
+@media (min-width: 960px) {
+
+    #mobile-container{
+        display: none;
+    }
+
+    #desk-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-shrink: 0;
+        padding: 8px 150px;
+        border-bottom: 1px solid rgba(189, 164, 26, 0.10);
+        background: #222;
+        box-shadow: 0px 4px 7px 0px rgba(0, 0, 0, 0.15);
+    }
+
+    #menu-container img {
+        height: 40px;
+    }
+
+    #menu-container p {
+        color: #BDA41A;
+        font-family: "Kirang Haerang";
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .nav-container ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 28px;
+        cursor: pointer;
+    }
+
+    .nav-container li a{
+        text-decoration: none;
+        color: #BDA41A;
+        font-family: Inter;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+
+    #login-btn {
+        padding: 4px 16px;
+        color: #222;
+        font-family: "Kirang Haerang";
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    
 }

@@ -12,8 +12,8 @@
     <title>Document</title>
 </head>
 <body>
-    <div id="mobile-container">
-        <header>
+    <div id="main-container">
+        <header id="mobile-container">
             <div id="menu-container">
                 <i class="bi bi-list" id="menu-btn"></i>
                 <img src="./assets/hamburguer.png" alt="">
@@ -52,6 +52,45 @@
                 </li>
             </ul>
         </nav>
+        <header id="desk-container">
+            <div id="menu-container">
+                <img src="./assets/hamburguer.png" alt="">
+                <p>Hamburgueria.com</p>
+            </div>
+            <div class="nav-container">
+                <ul>
+                    <li>
+                        <a href="home">
+                            <i class="bi bi-house"></i>
+                            Inicio
+                        </a>
+                    </li>
+                    <li>
+                        <a href="cardapio">
+                            <i class="bi bi-pencil-square"></i>
+                            Cardápio
+                        </a>
+                    </li>
+                    <li>
+                        <a href="lancamentos">
+                            <i class="bi bi-patch-exclamation"></i>
+                            Lançamentos
+                        </a>
+                    </li>
+                    <li>
+                        <a href="delivery">
+                            <i class="bi bi-truck"></i>
+                            Delivery
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div id="login-container">
+                <button id="login-btn">
+                    Entrar
+                </button>
+            </div>
+        </header>
     </div>
 </body>
 </html>
