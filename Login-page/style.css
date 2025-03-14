@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("./assets/background.png");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+}
+
+main {
+    width: 1140px;
+    height: 732px;
+    flex-shrink: 0;
+    display: flex;
+    border: 4px solid #000;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f9f9f9;
+}
+
+.main-container form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    margin-bottom: 16px;
+    font-family: "inter";
+}
+
+.main-container form input {
+    height: 48px;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    width: 369px;
+    border: 3px solid #000;
+    border-radius: 5px;
+}
+
+.register-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: underline;
+    font-family: Inter;
+    font-size: 12px;
+}
+
+.register-container a {
+    text-decoration: none;
+    color: #000;
+}
+
+.register-container button {
+    width: 140px;
+    padding: 8px;
+    background-color: #000;
+    border: none;
+    color: #fff;
+    font-family: "inter";
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.divisor hr {
+    width: 369px;
+    color: #ACACAC;
+}
+
+.divisor p{
+    position: relative;
+    top: -60%;
+    left: 35%;
+    background-color: #f9f9f9;
+    width: 30%;
+    text-align: center;
+    color: #ACACAC;
+    font-family: Inter;
+    font-size: 12px;
+}
+
+.social-media-container {
+    display: flex;
+    gap: 16px;
+}
+
+.social-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ACACAC;
+    padding: 1px;
+    width: 124px;
+    height: 124px;
+    flex-shrink: 0;
+    cursor: pointer;
+}
+
+.main-container,
+.img-container {
+    width: 50%;
+}
+
+.img-container img {
+    width: 566px;
+    height: 724px;
+}
