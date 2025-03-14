@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "inter";
+    list-style: none;
+}
+
+.hide {
+    display: none;
+}
+
+.active {
+    display: block;
+}
+
+#mobile-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100dvw;
+    background-color: #222;
+    padding: 8px 32px;
+}
+
+#menu-container {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+#menu-container .bi-list{
+    font-size: 40px;
+    color: #BDA41A;
+    cursor: pointer;
+}
+
+#dropdown {
+    margin-left: 5px;
+    align-self: flex-start;
+    padding: 24px 32px 0px 32px;
+    border-radius: 0 0 15px 15px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+#dropdown li {
+    display: flex;
+    margin-bottom: 28px;
+}
+
+#dropdown a {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    text-decoration: none;
+    color: #222;
+}
+
+#dropdown li .bi {
+    font-size: 24px;
+    margin-right: 5px;
+}
+
+#login-container {
+    display: flex;
+    align-items: center;
+}
+
+#login-btn {
+    background-color: #BDA41A;
+    color: #222;
+    padding: 4px 16px;
+    border: none;
+    border-radius: 4px;
+    font-family: Kirang Haerang;
+    font-size: 12px;
+    cursor: pointer;
+}
