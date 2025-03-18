@@ -117,3 +117,77 @@ main {
     width: 566px;
     height: 724px;
 }
+
+#mob-img {
+    display: none;
+}
+
+#desk-img {
+    display: block;
+}
+
+@media (max-width: 1400px) {
+    
+    main {
+        height: 852px;
+        width: 393px;
+        justify-content: center;
+    }
+
+    .main-container {
+        width: 100%;;
+        padding: 54px 32px 176px 32px;
+        align-items: center;
+        gap: 32px;
+        background-color: #ffffffe4;
+    }
+
+    #mob-img {
+        display: block;
+    }
+
+    #desk-img {
+        display: none;
+    }
+
+    .img-container {
+        display: none;
+    }
+
+    .login-container,
+    .register-container {
+        margin-bottom: 32px;
+    }
+
+    .login-container form h2{
+        font-size: 32px;
+    }
+
+    .login-container form input {
+        width: 305px;
+        height: 60px;
+    }
+
+    .register-container {
+        flex-direction: column-reverse;
+    }
+
+    .register-container button {
+        width: 100%;
+        height: 59px;
+        margin-top: 32px;
+        margin-bottom: 24px;
+    }
+
+    #logo-container {
+        margin-bottom: 72px;
+    }
+
+    .divisor {
+        display: none;
+    }
+
+    .social-media-container {
+        flex-direction: column-reverse;
+    }
+}
