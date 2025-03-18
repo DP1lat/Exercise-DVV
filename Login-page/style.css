@@ -126,6 +126,10 @@ main {
     display: block;
 }
 
+.texto-escondido {
+    display: none;
+}
+
 @media (max-width: 1400px) {
     
     main {
@@ -189,5 +193,26 @@ main {
 
     .social-media-container {
         flex-direction: column-reverse;
+    }
+
+    .social-content {
+        display: flex;
+        align-items: center;
+        padding: 12px 16px;
+        width: 297px;
+        height: 40px;
+        gap: 8px;
+        font-family: "inter";
+        border-radius: 248px;
+        border: 1px solid #ACACAC;
+        background-color: #fff;
+    }
+
+    .social-content img {
+        height: 32px;
+    }
+
+    .texto-escondido {
+        display: block;
     }
 }
