@@ -15,8 +15,8 @@ body {
 .main-container {
     padding: 40px;
     border-radius: 15px;
-    height: 381px;
-    width: 369px;
+    height: 461px;
+    width: 449px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -24,4 +24,46 @@ body {
     flex-shrink: 0;
     background-color: #fefefe;
     box-shadow: 0px 4px 13px 0px rgba(0, 0, 0, 0.15);
+}
+
+#header-container {
+    width: 369px;
+    height: 78px;
+    gap: 8px;
+    display: flex;
+    align-items: center;
+    align-self: stretch;
+    color: #18E395;
+}
+
+#form-container {
+    height: 263px;
+    width: 369px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    align-self: stretch;
+    gap: 32px;
+}
+
+.form-content {
+    height: 188px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: flex-start;
+    align-self: stretch;
+}
+
+.first-container input,
+.third-container input{
+    width: 369px;
+    height: 35px;
+    display: flex;
+    align-items: flex-start;
+    align-items: flex-start;
+    gap: 16px;
+    align-self: stretch;
+    flex-wrap: wrap;
 }
