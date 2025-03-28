@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./script.js" defer></script>
+    <link rel="stylesheet" href="styles.css">
+    <title>Fomrulário de Enedereço</title>
+</head>
+<body>
+    <div class="main-container">
+        <div id="header-container">
+            <img src="./assets/entypo_address.svg" alt="">
+            <h1>Preencha com seu endereço</h1>
+        </div>
+        <div id="form-container">
+            <form class="form-content">
+                <div class="first-container">
+                    <input type="text" name="cep" id="cep" placheholder="CEP">
+                </div>
+                <div class="second-container">
+                    <input type="text" name="street" id="street" placheholder="Rua">
+                    <input type="text" name="neighborhood" id="neighborhood" placheholder="Bairro">
+                    <input type="number" name="number" id="number" placheholder="Número">
+                </div>
+                <div class="third-container">
+                    <input type="text" name="adress-line" id="adress-line" placheholder="Complemento">
+                </div>
+                <div class="fourth-container">
+                    <input type="text" name="city" id="city" placheholder="Cidade">
+                    <input type="text" name="state" id="state" placheholder="Estado">
+                </div>
+            </form>
+            <button id="submit-btn">Prosseguir</button>
+        </div>
+    </div>
+</body>
+</html>
