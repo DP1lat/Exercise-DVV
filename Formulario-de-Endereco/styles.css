@@ -67,3 +67,32 @@ body {
     align-self: stretch;
     flex-wrap: wrap;
 }
+
+.second-container {
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+    align-self: stretch;
+}
+
+#street {
+    width: 165px;
+    display: flex;
+    padding: 8px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    flex: 1 0 0;
+}
+
+#number,
+#neighborhood {
+    display: flex;
+    width: 70px;
+    height: 35px;
+    padding: 8px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    flex: 1 0 0;
+}
